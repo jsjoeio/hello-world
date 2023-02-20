@@ -1,11 +1,11 @@
 {
-  "name": "",
+  "name": "@jsjoeio/hello-world",
   "version": "0.0.1",
   "description": "",
-  "keywords": [],
+  "keywords": ["typescript"],
   "license": "MIT",
-  "repository": "<username/repo-name>",
-  "author": "",
+  "repository": "jsjoeio/hello-world",
+  "author": "Joe Previte <jjprevite@gmail.com>",
   "type": "module",
   "files": [
     "dist"
