@@ -1,6 +1,6 @@
 {
   "name": "@jsjoeio/hello-world",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "keywords": ["typescript"],
   "license": "MIT",
@@ -10,7 +10,9 @@
   "files": [
     "dist"
   ],
-  "bin": "./dist/cli.mjs",
+  "bin": {
+    "hello-world": "./dist/cli.mjs"
+  },
   "scripts": {
     "build": "pkgroll --minify",
     "type-check": "tsc"
